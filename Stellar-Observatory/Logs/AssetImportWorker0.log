@@ -15,7 +15,7 @@ D:/Unity Games/Stellar-Observatory/Stellar-Observatory
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59691
+56354
 Successfully changed project path to: D:/Unity Games/Stellar-Observatory/Stellar-Observatory
 D:/Unity Games/Stellar-Observatory/Stellar-Observatory
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ D:/Unity Games/Stellar-Observatory/Stellar-Observatory
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18988] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1445802821 [EditorId] 1445802821 [Version] 1048832 [Id] WindowsEditor(7,LogansPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [3512] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3194606904 [EditorId] 3194606904 [Version] 1048832 [Id] WindowsEditor(7,LogansPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [18988] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1445802821 [EditorId] 1445802821 [Version] 1048832 [Id] WindowsEditor(7,LogansPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3512] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3194606904 [EditorId] 3194606904 [Version] 1048832 [Id] WindowsEditor(7,LogansPC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 11.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 15.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.31f1 (4ede2d13e8b4)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008926 seconds.
-- Loaded All Assemblies, in  0.436 seconds
+Registered in 0.008153 seconds.
+- Loaded All Assemblies, in  0.653 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.303 seconds
-Domain Reload Profiling: 738ms
-	BeginReloadAssembly (140ms)
+- Finished resetting the current domain, in  0.485 seconds
+Domain Reload Profiling: 1136ms
+	BeginReloadAssembly (185ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (43ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (167ms)
-		LoadAssemblies (137ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (95ms)
+	LoadAllAssembliesAndSetupDomain (277ms)
+		LoadAssemblies (181ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (165ms)
-			TypeCache.Refresh (164ms)
-				TypeCache.ScanAssembly (150ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (304ms)
+		AnalyzeDomain (274ms)
+			TypeCache.Refresh (271ms)
+				TypeCache.ScanAssembly (243ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (486ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (239ms)
+		SetupLoadedEditorAssemblies (376ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (10ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (168ms)
-			ProcessInitializeOnLoadMethodAttributes (45ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (84ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,55 +115,55 @@ Domain Reload Profiling: 738ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.583 seconds
-Refreshing native plugins compatible for Editor in 2.56 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.955 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.649 seconds
-Domain Reload Profiling: 1230ms
-	BeginReloadAssembly (109ms)
+- Finished resetting the current domain, in  0.647 seconds
+Domain Reload Profiling: 1599ms
+	BeginReloadAssembly (258ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (9ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (16ms)
-	RebuildCommonClasses (24ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (409ms)
-		LoadAssemblies (248ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (553ms)
+		LoadAssemblies (466ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (223ms)
-			TypeCache.Refresh (193ms)
-				TypeCache.ScanAssembly (180ms)
-			ScanForSourceGeneratedMonoScriptInfo (20ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (194ms)
+				TypeCache.ScanAssembly (179ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (649ms)
+	FinalizeReload (648ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (514ms)
+		SetupLoadedEditorAssemblies (506ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (296ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (291ms)
 			ProcessInitializeOnLoadMethodAttributes (151ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 5.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 6220 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 100 unused Assets / (3.6 MB). Loaded Objects now: 6686.
-Memory consumption went from 284.6 MB to 281.0 MB.
-Total: 3.364200 ms (FindLiveObjects: 0.452000 ms CreateObjectMapping: 0.439600 ms MarkObjects: 2.098600 ms  DeleteObjects: 0.373100 ms)
+Unloading 6225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 100 unused Assets / (3.6 MB). Loaded Objects now: 6695.
+Memory consumption went from 286.4 MB to 282.9 MB.
+Total: 10.633400 ms (FindLiveObjects: 1.302800 ms CreateObjectMapping: 1.164300 ms MarkObjects: 6.318500 ms  DeleteObjects: 1.843000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -180,280 +180,560 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 25138.946942 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(c5e644d063ea3014193b78b8412f2141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(c5e644d063ea3014193b78b8412f2141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3e955abb2a06f4fba8564ac0a479ee03') in 0.020250 seconds
+  Time since last request: 43278.783126 seconds.
+  path: Assets/DarkAndStormy-master/Assets/Aurora.unity
+  artifactKey: Guid(3a037a83e27eeef4dbfb18926f6fe8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/Aurora.unity using Guid(3a037a83e27eeef4dbfb18926f6fe8fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '70b1950102bd7eca2b3522473a7de3af') in 0.003013 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 156.541741 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(c5e644d063ea3014193b78b8412f2141) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/New Terrain.asset using Guid(c5e644d063ea3014193b78b8412f2141) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '870af4b28e3db9d5bc472ef9c00db37d') in 0.061084 seconds
+  Time since last request: 0.000085 seconds.
+  path: Assets/DarkAndStormy-master/Assets/Aurora2.mat
+  artifactKey: Guid(cb461174653fa3e4fbbf306c2d4e914e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/Aurora2.mat using Guid(cb461174653fa3e4fbbf306c2d4e914e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd731cd9d18aec667779b2b1aff5ff016') in 1.574320 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 8
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
-  artifactKey: Guid(088df0af4aab7e74985adcde14741a37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(088df0af4aab7e74985adcde14741a37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1fedbda36ddc27e26c583a37967df640') in 0.084185 seconds
+  Time since last request: 0.000102 seconds.
+  path: Assets/DarkAndStormy-master/Assets/Aurora1.mat
+  artifactKey: Guid(59397b85a8a1272439f8d5393685d249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/Aurora1.mat using Guid(59397b85a8a1272439f8d5393685d249) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7f6cc47572ac65068cc5c7893f75b2ff') in 0.077393 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.422 seconds
+Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.077 seconds
+Domain Reload Profiling: 1498ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (18ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (190ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1078ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (325ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 2.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5888 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (3.6 MB). Loaded Objects now: 6858.
+Memory consumption went from 252.4 MB to 248.9 MB.
+Total: 3.912000 ms (FindLiveObjects: 0.343200 ms CreateObjectMapping: 0.223600 ms MarkObjects: 2.801200 ms  DeleteObjects: 0.542800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Scenes/Observatory.unity
-  artifactKey: Guid(c4149b14f8239724eab7b4d304469c94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Observatory.unity using Guid(c4149b14f8239724eab7b4d304469c94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '117242aa5d0b7223d2ef0f867bb9a84e') in 0.007039 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd60a8dc957d5b94939038b3bc96c30a3') in 0.021945 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scenes/SampleScene/Global Settings Profile.asset
-  artifactKey: Guid(42bfefde464a96242a90b8c042b758ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene/Global Settings Profile.asset using Guid(42bfefde464a96242a90b8c042b758ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e14f0842e6fb43f6225758038257e6a9') in 0.046774 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Other/Sky/starmap_random_2020_8k.exr
-  artifactKey: Guid(7c49bdccd4672a543b84f1c7e44e1433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Other/Sky/starmap_random_2020_8k.exr using Guid(7c49bdccd4672a543b84f1c7e44e1433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '33cdbdf613430a5b205b71f540359794') in 0.056308 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Scenes/HDRP/LightingData.asset
-  artifactKey: Guid(b971a1970e1c8664e81a7ee4b41b09d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/HDRP/LightingData.asset using Guid(b971a1970e1c8664e81a7ee4b41b09d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '719ed8d648049a449e5b99a9d2559f61') in 0.011507 seconds
+  Time since last request: 18.235222 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/Clouds_01.tga
+  artifactKey: Guid(7d081bf8019ef044eaed6714cc1c3289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/Clouds_01.tga using Guid(7d081bf8019ef044eaed6714cc1c3289) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5c2726dc6c7bf66b11ed6b4632d41e17') in 0.056502 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/Other/Sky/lroc_color_poles_4k.tif
-  artifactKey: Guid(80b79d5209308294ba23e5fd48f020a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Other/Sky/lroc_color_poles_4k.tif using Guid(80b79d5209308294ba23e5fd48f020a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f71a318eb1f9bbc2ba3c95b2bb14f640') in 0.020903 seconds
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/UpperColor.tga
+  artifactKey: Guid(a051d252d661c8747a9915b4999f2e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/UpperColor.tga using Guid(a051d252d661c8747a9915b4999f2e77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3bb5ea5e8852121be6868291eb094aea') in 0.021715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/Clouds_02.tga
+  artifactKey: Guid(c89eeff227ca2dd4b8917dc6cbde5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/Clouds_02.tga using Guid(c89eeff227ca2dd4b8917dc6cbde5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7ba6950d1c35e1eaf15b560b81debf11') in 0.032129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/Clouds_01_Flow.tga
+  artifactKey: Guid(72b1c2a1fb763c544985ef437010fd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/Clouds_01_Flow.tga using Guid(72b1c2a1fb763c544985ef437010fd4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e903c2cd910e411fdbd63863993d9ad7') in 0.028443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/Wave_Dist 1.tga
+  artifactKey: Guid(0db4e2c5a74eecb4286111eaf8dbd3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/Wave_Dist 1.tga using Guid(0db4e2c5a74eecb4286111eaf8dbd3fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4ddddf5e0d450cc398a4b30c25a1af41') in 0.030705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 68.637643 seconds.
+  path: Assets/DarkAndStormy-master/Assets/Aurora
+  artifactKey: Guid(00fb524384f3b1e41842e507845877ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/Aurora using Guid(00fb524384f3b1e41842e507845877ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7edd35de8fc15ff7e5e6c1cabc2d82cd') in 0.000582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.040027 seconds.
+  path: Assets/DarkAndStormy-master/Assets/Aurora/Sky and Fog Settings.asset
+  artifactKey: Guid(0d2c3ef2d0a7c9a48984c23ff368b315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/Aurora/Sky and Fog Settings.asset using Guid(0d2c3ef2d0a7c9a48984c23ff368b315) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9285de123d69b47428fe15a7c83d6fbf') in 0.002397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.267501 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy
+  artifactKey: Guid(969ca0250ef3b014da98f42ea1683148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy using Guid(969ca0250ef3b014da98f42ea1683148) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ed789dc9f5b6ce0abc1c8d7b2c27e699') in 0.000431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.681973 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Funky_Skybox_Scene.unity
+  artifactKey: Guid(ce7c475a5a615394ebd82dafa11dcda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Funky_Skybox_Scene.unity using Guid(ce7c475a5a615394ebd82dafa11dcda9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '005a541aed1aad2b5903aa860d99adf4') in 0.000414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.796869 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox
+  artifactKey: Guid(d4d9a3309cb8d5b419891b8279416dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox using Guid(d4d9a3309cb8d5b419891b8279416dd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5cf0264f383556d49e647153c7692fb5') in 0.000461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.068490 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/Clouds_Scifi.mat
+  artifactKey: Guid(0900bd04018a4f34bacbafbcd37a855a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/Clouds_Scifi.mat using Guid(0900bd04018a4f34bacbafbcd37a855a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4ebc66cb07a66cac96b8d8eacf3ab795') in 0.458322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 55
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/Wave_Dist_2.tga
+  artifactKey: Guid(4d6846783c7c8a047b0f876b08bda637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/Wave_Dist_2.tga using Guid(4d6846783c7c8a047b0f876b08bda637) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5fcc40b803a2f3a734abe8b2771866bb') in 0.011405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/UpperColorGreen.tga
+  artifactKey: Guid(d5d569c260dd7b44580bf069fabc7460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/UpperColorGreen.tga using Guid(d5d569c260dd7b44580bf069fabc7460) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '952d755ab76a78282e655a48e816caeb') in 0.010131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/UpperColorGreyscale.tga
+  artifactKey: Guid(cac71621a105c1b4a85a8fc4ddec7533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Skybox/UpperColorGreyscale.tga using Guid(cac71621a105c1b4a85a8fc4ddec7533) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '12ba02b74ca88000291d3018b882f49e') in 0.010413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.350760 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Shaders
+  artifactKey: Guid(bddc5916ffcda2a499fc400aa3900282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Shaders using Guid(bddc5916ffcda2a499fc400aa3900282) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3605ff08ae8f09a1fedd2a7d941a7212') in 0.000626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.055976 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Shaders/FogInclude.cginc
+  artifactKey: Guid(fe7e72d1a65fa034983e51cc2e9a9a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Shaders/FogInclude.cginc using Guid(fe7e72d1a65fa034983e51cc2e9a9a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b3a1cfd44a06039a7fa48ca1cc22868c') in 0.001036 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset
-  artifactKey: Guid(b83c4e9aba8e2a5448089be0f5954e87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/HDRPDefaultResources/HDRenderPipelineGlobalSettings.asset using Guid(b83c4e9aba8e2a5448089be0f5954e87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '182ea7bc0efb38c5311f3c2e51818f97') in 0.017713 seconds
+  Time since last request: 1.155424 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Shaders/Clouds.shader
+  artifactKey: Guid(86f4829d12213e54880ad281220eb019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Shaders/Clouds.shader using Guid(86f4829d12213e54880ad281220eb019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c1d95d3c923328980c5c1c5ed9a3dd7b') in 0.000698 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Scenes/SampleScene/Sky and Fog Settings.asset
-  artifactKey: Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene/Sky and Fog Settings.asset using Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1cca3cc192397567e09af3e54a817e12') in 0.049589 seconds
+  Time since last request: 1.782323 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Shaders/Terrain.shader
+  artifactKey: Guid(ed98e50ba9a9aab478d792b95f5912f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Shaders/Terrain.shader using Guid(ed98e50ba9a9aab478d792b95f5912f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '660d8c84432d0ee9d7f01b01226138dc') in 0.000614 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 8
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
-  artifactKey: Guid(e8957a30a168a0e4c89d6a39ca8312a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(e8957a30a168a0e4c89d6a39ca8312a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3389076f0fb51dc60f84c5d37f1949ab') in 0.006825 seconds
+  Time since last request: 2.227468 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/PostProcess
+  artifactKey: Guid(8ba64a9b0dfa832469176e8c6c4afb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/PostProcess using Guid(8ba64a9b0dfa832469176e8c6c4afb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd5e84eaf8055afff03c04ba371e71339') in 0.000516 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
-  artifactKey: Guid(51ea0002f9ade0e4aa3407ebb69b9762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(51ea0002f9ade0e4aa3407ebb69b9762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '339cb3099291100f282abd10adb6fada') in 0.006511 seconds
+  Time since last request: 30.292325 seconds.
+  path: Assets/Scenes/HDRP
+  artifactKey: Guid(da82e47187bf78747bd287649380af2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/HDRP using Guid(da82e47187bf78747bd287649380af2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3f3ba0e1584b36a5464d8880d3b44bfa') in 0.000480 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Scenes/HDRP/SkyandFogSettingsProfile.asset
-  artifactKey: Guid(b0909d8737ad1d449820bb548365a284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/HDRP/SkyandFogSettingsProfile.asset using Guid(b0909d8737ad1d449820bb548365a284) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '33933b3671ba8b17cd27da554f2b4aa4') in 0.029895 seconds
+  Time since last request: 7.904880 seconds.
+  path: Assets/Scenes/Observatory.unity
+  artifactKey: Guid(c4149b14f8239724eab7b4d304469c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Observatory.unity using Guid(c4149b14f8239724eab7b4d304469c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ca846e16a464cff38a97b8fb42a944eb') in 0.000419 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 5
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 343.853892 seconds.
-  path: Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset
-  artifactKey: Guid(e8957a30a168a0e4c89d6a39ca8312a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/HDRPDefaultResources/DefaultSettingsVolumeProfile.asset using Guid(e8957a30a168a0e4c89d6a39ca8312a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '409de1150f2f1dfa16aaf66b8806aa57') in 0.008822 seconds
-Number of updated asset objects reloaded before import = 18
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset
-  artifactKey: Guid(088df0af4aab7e74985adcde14741a37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/HDRPDefaultResources/HDRenderPipelineAsset.asset using Guid(088df0af4aab7e74985adcde14741a37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4927ccd277299e1b9ed434766d3299d1') in 0.014274 seconds
+  Time since last request: 8.601688 seconds.
+  path: Assets/DarkAndStormy-master
+  artifactKey: Guid(1fa4575d79251f94e993e0131ee5a7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master using Guid(1fa4575d79251f94e993e0131ee5a7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '39d81ad88efae81eb2584057083b3539') in 0.000576 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Scenes/SampleScene/Sky and Fog Settings.asset
-  artifactKey: Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene/Sky and Fog Settings.asset using Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'de22f4cff5c6d9b07b0b1d6d5aced16d') in 0.038995 seconds
+  Time since last request: 0.895540 seconds.
+  path: Assets/DarkAndStormy-master/Assets
+  artifactKey: Guid(c0788f43f6658ef488066bc9a778efb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets using Guid(c0788f43f6658ef488066bc9a778efb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f9029acfca3b1ab3d47227acbf8a8df8') in 0.000592 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/HDRPDefaultResources/DefaultLookDevProfile.asset
-  artifactKey: Guid(51ea0002f9ade0e4aa3407ebb69b9762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/HDRPDefaultResources/DefaultLookDevProfile.asset using Guid(51ea0002f9ade0e4aa3407ebb69b9762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f61bc9a57f892511a0ccf2bc69de869c') in 0.007280 seconds
+  Time since last request: 44.843002 seconds.
+  path: Assets/DarkAndStormy-master/Assets/Scripts
+  artifactKey: Guid(3c97438b0cfe52a468a20e0dbfbcbf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/Scripts using Guid(3c97438b0cfe52a468a20e0dbfbcbf2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '629d2088d0affe0bbf34cee01762df0b') in 0.000760 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 10.156781 seconds.
-  path: Assets/Scenes/SampleScene/Sky and Fog Settings.asset
-  artifactKey: Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene/Sky and Fog Settings.asset using Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'afbfa556f6f502f0bf469d1ef5e7798f') in 0.024451 seconds
+  Time since last request: 1.010836 seconds.
+  path: Assets/DarkAndStormy-master/Assets/Scripts/Camera
+  artifactKey: Guid(3a72e7af61005cb4fb605bffe1892870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/Scripts/Camera using Guid(3a72e7af61005cb4fb605bffe1892870) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c09e5362f66610d3b7199b3ea792448') in 0.000621 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 31.440978 seconds.
-  path: Assets/Scenes/SampleScene/Sky and Fog Settings.asset
-  artifactKey: Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene/Sky and Fog Settings.asset using Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4b843590ca0c7fe3d163538b5743a0e2') in 0.022818 seconds
+  Time since last request: 0.757805 seconds.
+  path: Assets/DarkAndStormy-master/Assets/Scripts/Camera/MatchEditorCamera.cs
+  artifactKey: Guid(ccf8701ef07c2ba4e946affc7c2a437b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/Scripts/Camera/MatchEditorCamera.cs using Guid(ccf8701ef07c2ba4e946affc7c2a437b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c8d22bd557fe61a51c8e3154e528af59') in 0.000547 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 72.914582 seconds.
-  path: Assets/Scenes/SampleScene/Sky and Fog Settings.asset
-  artifactKey: Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene/Sky and Fog Settings.asset using Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '289fa7e6ec22f4c299c21f3ad59be999') in 0.025008 seconds
+  Time since last request: 4.332305 seconds.
+  path: Assets/DarkAndStormy-master/Assets/Aurora/Sky and Fog Settings.asset
+  artifactKey: Guid(0d2c3ef2d0a7c9a48984c23ff368b315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/Aurora/Sky and Fog Settings.asset using Guid(0d2c3ef2d0a7c9a48984c23ff368b315) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '224550c4979970803ff893532bbfb5ae') in 0.001229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 7.970744 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Terrain
+  artifactKey: Guid(e08a056f1d732a9408133aae5f106f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Terrain using Guid(e08a056f1d732a9408133aae5f106f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ace5b4ba5621d992601e0c035371bdeb') in 0.000807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.059849 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Terrain/Terrain_01.FBX
+  artifactKey: Guid(8bedff4a8ad7d784582104aeea2f4a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Terrain/Terrain_01.FBX using Guid(8bedff4a8ad7d784582104aeea2f4a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0555253798422983787a2d3c8cd1560e') in 0.073285 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 12
 ========================================================================
 Received Import Request.
-  Time since last request: 49.985530 seconds.
-  path: Assets/Scenes/SampleScene/Sky and Fog Settings.asset
-  artifactKey: Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene/Sky and Fog Settings.asset using Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '348ecbd3bb6942b7174ad9b570d02ac6') in 0.437140 seconds
+  Time since last request: 1.809379 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Terrain/Materials
+  artifactKey: Guid(2c439ffc95c5ae34f9729255dd512609) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Terrain/Materials using Guid(2c439ffc95c5ae34f9729255dd512609) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '39a7acfd6f57b85a2b3639ad6f420d3b') in 0.000500 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 13
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 90.072253 seconds.
-  path: Assets/Scenes/Observatory
-  artifactKey: Guid(fe18d3c194df3124c9ba8570d0331a41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Observatory using Guid(fe18d3c194df3124c9ba8570d0331a41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '48e2795a11fc4854e1402475d9ef2e7a') in 0.007413 seconds
+  Time since last request: 0.038531 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Terrain/Materials/Terrain.png
+  artifactKey: Guid(e9d1faf29879d6a428a413aafb386e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Terrain/Materials/Terrain.png using Guid(e9d1faf29879d6a428a413aafb386e57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '49f0ef8899c942fcaf5161bd4285e62a') in 0.027674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Terrain/Materials/Terrain_Normal.png
+  artifactKey: Guid(16410d2d0a7777945893dfb01924574f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Terrain/Materials/Terrain_Normal.png using Guid(16410d2d0a7777945893dfb01924574f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9e3e4393f9359b12cd7697edfb3d643f') in 0.015507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.173251 seconds.
+  path: Assets/DarkAndStormy-master/README.md
+  artifactKey: Guid(a9b44f1fc990a5147bc7580f6a7e2f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/README.md using Guid(a9b44f1fc990a5147bc7580f6a7e2f9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3d7fef80d3f5a8217fdb4e47a490afc1') in 0.001013 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Scenes/Observatory/ReflectionProbe-0.exr
-  artifactKey: Guid(20c0ca4897f7f4b4a85c0a45230cc554) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Observatory/ReflectionProbe-0.exr using Guid(20c0ca4897f7f4b4a85c0a45230cc554) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '93cb408f4a20b2fba08501cdb0cf9fb4') in 0.013416 seconds
+  Time since last request: 99.003050 seconds.
+  path: Assets/DarkAndStormy-master/Assets/New Material.mat
+  artifactKey: Guid(cc7abf8a0d7b6c043bcf931cdaafde5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/New Material.mat using Guid(cc7abf8a0d7b6c043bcf931cdaafde5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8193ed3a5d3600e017047cde16753380') in 0.041418 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 56.234398 seconds.
-  path: Assets/Scenes/SampleScene/Sky and Fog Settings.asset
-  artifactKey: Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene/Sky and Fog Settings.asset using Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8aaeb092769ab6bcd23e31ef4728bc20') in 0.029997 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 28.815559 seconds.
-  path: Assets/Scenes/SampleScene/Sky and Fog Settings.asset
-  artifactKey: Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene/Sky and Fog Settings.asset using Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '86020fd8a55a1e26f99de9b088852eb3') in 0.041595 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 41.452725 seconds.
-  path: Assets/Scenes/SampleScene/Sky and Fog Settings.asset
-  artifactKey: Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene/Sky and Fog Settings.asset using Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a4fe715c13ba5f69f9301fedf59bbf16') in 0.043638 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 292.646419 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(c5e644d063ea3014193b78b8412f2141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Terrain.asset using Guid(c5e644d063ea3014193b78b8412f2141) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '73eb9182a9ca7ba6eee6a5d16f9936bf') in 0.005013 seconds
+  Time since last request: 43.277489 seconds.
+  path: Assets/DarkAndStormy-master/Assets/HDRPSkybox.mat
+  artifactKey: Guid(cc7abf8a0d7b6c043bcf931cdaafde5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/HDRPSkybox.mat using Guid(cc7abf8a0d7b6c043bcf931cdaafde5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b1fbcf10d8471690ed86a485c01c23f0') in 0.022158 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.586301 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(c5e644d063ea3014193b78b8412f2141) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/New Terrain.asset using Guid(c5e644d063ea3014193b78b8412f2141) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2f53270d94ef821e95894d2e5b61370e') in 0.012350 seconds
+  Time since last request: 46.797674 seconds.
+  path: Assets/DarkAndStormy-master/Assets/DarkAndStormy/Terrain/Terrain_01.FBX
+  artifactKey: Guid(8bedff4a8ad7d784582104aeea2f4a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DarkAndStormy-master/Assets/DarkAndStormy/Terrain/Terrain_01.FBX using Guid(8bedff4a8ad7d784582104aeea2f4a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c75c380938451db197c93607e88c87ef') in 0.021130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.424 seconds
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.936 seconds
+Domain Reload Profiling: 2359ms
+	BeginReloadAssembly (158ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (207ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1936ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (721ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (572ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5879 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 75 unused Assets / (3.6 MB). Loaded Objects now: 6974.
+Memory consumption went from 251.3 MB to 247.8 MB.
+Total: 3.069900 ms (FindLiveObjects: 0.338000 ms CreateObjectMapping: 0.181700 ms MarkObjects: 2.179800 ms  DeleteObjects: 0.369600 ms)
+
+Prepare: number of updated asset objects reloaded= 3
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 235.386489 seconds.
+  path: Assets/Shaders
+  artifactKey: Guid(145f3690211c3e74885dcb4369c5dd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders using Guid(145f3690211c3e74885dcb4369c5dd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'dad3f59197c6ee83498e247d65eba431') in 0.010521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 31.060930 seconds.
+  path: Assets/Shaders/New Shader Sub Graph.shadersubgraph
+  artifactKey: Guid(0d3ace0ab2f0c9540a0709154ba4da36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/New Shader Sub Graph.shadersubgraph using Guid(0d3ace0ab2f0c9540a0709154ba4da36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '30f0aeca94ec99bbb11e9e4aea7c1604') in 0.009683 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Scenes/Observatory.unity
-  artifactKey: Guid(c4149b14f8239724eab7b4d304469c94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/Observatory.unity using Guid(c4149b14f8239724eab7b4d304469c94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b3b74b04e7dd51331bceb6c750a89375') in 0.006388 seconds
+  Time since last request: 101.436001 seconds.
+  path: Assets/Shaders/AuroraLitShader.shadergraph
+  artifactKey: Guid(729b3789cd5644e40a67db452974b978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/AuroraLitShader.shadergraph using Guid(729b3789cd5644e40a67db452974b978) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1482b23dc92a2c92c6e1850cf31c501e') in 0.876419 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 51
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000109 seconds.
-  path: Assets/Scenes/SampleScene/Sky and Fog Settings.asset
-  artifactKey: Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Start importing Assets/Scenes/SampleScene/Sky and Fog Settings.asset using Guid(441d4ebc5bf45f141a828af0bdad4a90) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a54278abcd7104cd39c8f94120d9e277') in 0.024213 seconds
+  Time since last request: 452.568670 seconds.
+  path: Assets/Shaders/AuroraLitShader.shadergraph
+  artifactKey: Guid(729b3789cd5644e40a67db452974b978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/AuroraLitShader.shadergraph using Guid(729b3789cd5644e40a67db452974b978) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e397fb0833ad50c86123fbf61c5f18b3') in 7.000003 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 16
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 14.550864 seconds.
+  path: Assets/Shaders/Aurora.mat
+  artifactKey: Guid(d8433791162c0fc45a91e8e71fcf441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shaders/Aurora.mat using Guid(d8433791162c0fc45a91e8e71fcf441b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '43e0597dcbd290f0c4acb3dbe71c08f6') in 0.028263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11244.814956 seconds.
+  path: Assets/Models/aurora.fbx
+  artifactKey: Guid(07f91cd24da6a364caa16a4c18269161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/aurora.fbx using Guid(07f91cd24da6a364caa16a4c18269161) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '08ae94208cf2abee07174f6c26297f87') in 0.184550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
